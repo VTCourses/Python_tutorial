@@ -9,21 +9,36 @@ This tutorial aims to help you setup develop environments for CS 4804 programmin
 
 ps. Please use Python 3.6 for class assignments
 
-## Setup Python env using Docker
-
+## Inatall Anaconda3 using Docker
+* [Docker installation](https://docs.docker.com/get-docker/)
 ```
 docker search continuumio
-docker pull continuumio/miniconda3
-docker run -t -i continuumio/miniconda3 /bin/bash
-docker run -ti -v /Path/tutorial:/tutorial continuumio/miniconda3 /bin/bash
+docker pull continuumio/anaconda3
+docker images
+```
+* Run Anaconda3
+```
+docker run -t -i continuumio/anaconda3 /bin/bash
+docker run -ti -v /Path/tutorial:/tutorial continuumio/anaconda3 /bin/bash
+```
 
-conda create --name cs4804 python=3.7
+## Setup Python env using conda
+* Create a Python 3.6 env
+```
+conda create --name cs4804 python=3.6
+conda env list
+```
+* Activate an env
+```
 conda activate cs4804
+```
+* Deactivate an env
+```
 conda deactivate
-conda info --envs
-
+```
+* Install Python libraries
+```
 conda search beautifulsoup4
 conda install beautifulsoup4
 conda list | grep beaut
-
 ```
