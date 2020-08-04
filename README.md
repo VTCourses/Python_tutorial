@@ -42,3 +42,6 @@ conda search beautifulsoup4
 conda install beautifulsoup4
 conda list | grep beaut
 ```
+
+# Book
+* Learning Python, 5th Edition (You can read the whole book online through [University Libraries](https://lib.vt.edu/))
