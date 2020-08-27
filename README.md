@@ -30,8 +30,8 @@ conda install beautifulsoup4
 conda list | grep beaut
 ```
 
-## Inatall Anaconda3 using Docker 
-* (Optional) If you don't want to install python or Anaconda directly on your computer or you are used to use docker to do things already
+## (Optional) Inatall Anaconda3 using Docker 
+* If you don't want to install python or Anaconda directly on your computer or you are used to use docker to do things already
 * [Docker installation](https://docs.docker.com/get-docker/)
 ```
 docker search continuumio
