@@ -29,6 +29,14 @@ conda search beautifulsoup4
 conda install beautifulsoup4
 conda list | grep beaut
 ```
+* version upgrade
+```
+conda list anaconda
+conda update anaconda
+conda update anaconda-navigator
+```
+
+
 
 ## (Optional) Inatall Anaconda3 using Docker 
 * If you don't want to install python or Anaconda directly on your computer or you are used to use docker to do things already
