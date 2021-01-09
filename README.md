@@ -1,4 +1,4 @@
-# Tutorial
+# Python Tutorial
 This tutorial aims to help you setup develop environments for CS 4804 programming assignments.
 
 ## Python Installation 
