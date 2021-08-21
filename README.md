@@ -1,5 +1,5 @@
 # Python Tutorial
-This tutorial aims to help you setup develop environments for CS 4804 programming assignments.
+This tutorial aims to help you set up a Python development environment.
 
 ## Python Installation 
 * Python for [Windows](https://www.python.org/downloads/windows/)
