@@ -7,7 +7,7 @@ This tutorial aims to help you setup develop environments for CS 4804 programmin
 * Python for [Mac OS X](https://www.python.org/downloads/mac-osx/)
 * [Anaconda Individual Edition](https://www.anaconda.com/products/individual)
 
-ps. Please use Python 3.6 for class assignments
+ps. Please use Python 3.6-3.8 for class assignments. Python 3.6.8 is installed in CS rlogin.cs.vt.edu. 
 
 ## Setup Python env using conda
 * Create a Python 3.6 env
