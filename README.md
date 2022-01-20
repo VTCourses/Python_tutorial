@@ -7,17 +7,17 @@ This tutorial aims to help you set up a Python development environment.
 * Python for [Mac OS X](https://www.python.org/downloads/mac-osx/)
 * [Anaconda Individual Edition](https://www.anaconda.com/products/individual)
 
-ps. Please use Python 3.6-3.8 for class assignments. Python 3.6.8 is installed in CS rlogin.cs.vt.edu. 
+ps. Please use Python 3.6 for class assignments. 
 
 ## Setup Python env using conda
 * Create a Python 3.6 env
 ```
-conda create --name cs4804 python=3.6
+conda create --name cs5804 python=3.6
 conda env list
 ```
 * Activate an env
 ```
-conda activate cs4804
+conda activate cs5804
 ```
 * Deactivate an env
 ```
