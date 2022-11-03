@@ -1,0 +1,20 @@
+name: aiproject
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2022.10.11=hecd8cb5_0
+  - certifi=2021.5.30=py36hecd8cb5_0
+  - libcxx=14.0.6=h9765a3e_0
+  - libffi=3.3=hb1e8313_2
+  - ncurses=6.3=hca72f7f_3
+  - openssl=1.1.1q=hca72f7f_0
+  - pip=21.2.2=py36hecd8cb5_0
+  - python=3.6.13=h88f2d9e_0
+  - readline=8.2=hca72f7f_0
+  - setuptools=58.0.4=py36hecd8cb5_0
+  - sqlite=3.39.3=h707629a_0
+  - tk=8.6.12=h5d9f67b_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.6=hca72f7f_0
+  - zlib=1.2.13=h4dc903c_0
+prefix: /Users/ylchen/opt/anaconda3/envs/aiproject
