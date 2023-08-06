@@ -40,6 +40,10 @@ conda update anaconda
 conda update anaconda-navigator
 ```
 
+## Run in the browser via GitHub Codespaces
+You can also set up and run your Python environment directly in your browser using GitHub Codespaces:
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/VTCourses/Python_tutorial/codespaces)
+
 ## Setting up a Python environment using an exported env file (Alternative)
 If you have an exported environment file for Python 3.6, you can create an environment using the following command:
 
