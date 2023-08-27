@@ -9,14 +9,14 @@ Choose the appropriate Python installation for your operating system:
 * [Python for Mac OS X](https://www.python.org/downloads/mac-osx/)
 * [Anaconda Individual Edition](https://www.anaconda.com/products/individual)
 
-Note: We recommend using Python 3.6 for class assignments.
+Note: We recommend using Python 3.6-3.10 for class assignments.
 
 ## Setting up a Python environment using conda
-Here's how you can create a Python 3.6 environment:
+Here's how you can create a Python 3.10 environment:
 
-* Create a Python 3.6 environment:
+* Create a Python 3.10 environment:
 ```
-conda create --name aiproject python=3.6
+conda create --name aiproject python=3.10
 conda env list
 ```
 * Activate the environment:
@@ -30,9 +30,29 @@ conda deactivate
 * Install Python libraries (Example with beautifulsoup4):
 ```
 conda search beautifulsoup4
+conda install numpy
+conda install matplotlib
+conda install pandas
 conda install beautifulsoup4
-conda list | grep beaut
 ```
+
+or pip insall
+```
+pip install numpy
+pip install matplotlib
+pip install pandas
+pip install beautifulsoup4
+```
+
+* Lists all the packages installed in the currently active conda environment.
+```
+conda list
+```
+or use grep to search for a specific package
+```
+conda list | grep numpy
+```
+
 * Upgrade versions:
 ```
 conda list anaconda
